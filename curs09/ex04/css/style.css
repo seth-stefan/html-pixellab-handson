@@ -24,3 +24,20 @@
   background-color: yellow;
 }
 
+/* Code Here */
+
+.box-red {
+  transition: transform ease-in-out 1s;
+}
+
+.box-red:hover {
+  transform: rotate(-30deg);
+}
+
+.box-green {
+  transition: transform ease-in-out 1s;
+}
+
+.box-green:hover {
+  transform: translate(25px right);
+}

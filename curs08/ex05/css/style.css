@@ -1,4 +1,50 @@
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
+  position: relative;
+}
+
+/* new code here */
+
+.nav-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: blue;
+  color: brown;
+  z-index: 1;
+}
+
+.nav-bottom a {
+  color: brown;
+}
+
+.legend {
+  background-color: gray;
+  border: 1px solid red;
+  position: absolute;
+  top: -5px;
+}
+
+.sup {
+  position: relative;
+  font-size: x-small;
+  top: -5px;
+}
+
+.nav-top {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.section-title {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: sticky;
 }

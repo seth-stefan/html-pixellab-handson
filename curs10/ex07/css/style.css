@@ -1,0 +1,25 @@
+/* Code Here */
+
+.my-first-list a {
+  display: block;
+}
+
+.my-first-list a::before {
+  content: '';
+  display: inline-block;
+  background: purple;
+  transform: rotate(45deg);
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+}
+
+.my-first-list a::after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  margin-left: 6px;
+}
