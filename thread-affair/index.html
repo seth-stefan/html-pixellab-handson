@@ -28,7 +28,7 @@
 
 <body>
 
-  <header class="header">
+  <header class="header-container">
 
     <div class="header-secondary">
       <section class="header-contact">
@@ -42,6 +42,9 @@
               Toll Free 1-877-666-1840
             </a>
           </li>
+          <li>
+            |
+          </li>
 
           <li>
             <a
@@ -52,7 +55,19 @@
         </ul>
       </section>
 
-      <section class="header-controls"></section>
+      <section class="header-controls">
+        <ul>
+          <li class="header-cart">
+            <a
+              href="/cart"
+              title="cart"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart-qty">3</span>
+            </a>
+          </li>
+        </ul>
+      </section>
 
     </div>
     <!-- ./header-secondary -->
@@ -127,10 +142,85 @@
   </header>
   <!-- ./header -->
 
-  <main class="content"></main>
+  <main class="content container">
+    <header class="banner-main"></header>
+    <div class="content-main">
+      <section class="home-payment">
+        <header>
+          <h1>How to <span>Pay</span></h1>
+        </header>
+
+        <ul>
+          <li>
+            <img
+              src="images/payment/visa.jpg"
+              alt="Visa"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/payment/visa_electron.jpg"
+              alt="Visa Electron"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/payment/mastercard.jpg"
+              alt="Mastercard"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/payment/maestro.jpg"
+              alt="Mastercard"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/payment/mastercard.jpg"
+              alt="Mastercard"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/payment/mastercard.jpg"
+              alt="Mastercard"
+            >
+          </li>
+
+          <li>
+            <img
+              src="images/payment/mastercard.jpg"
+              alt="Mastercard"
+            >
+          </li>
+        </ul>
+
+      </section>
+    </div>
+  </main>
   <!-- ./content -->
 
-  <footer class="footer"></footer>
+  <footer class="footer container">
+    <section class="footer-primary">
+      <nav class="footer-menu">...</nav>
+      <div
+        class="footer-support"
+        style="display: inline-block;"
+      >
+        <ul>
+          <li> <i class="fa-solid fa-square-phone">Support</i> </li>
+          <li> <i class="fa-solid fa-message">Chat</i> </li>
+          <li> <i class="fa-solid fa-email">Mail</i> </li>
+        </ul>
+      </div>
+    </section>
+  </footer>
   <!-- ./footer -->
 
 </body>

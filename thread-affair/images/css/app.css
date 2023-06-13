@@ -127,3 +127,101 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.header-secondary a {
+  display: block;
+  color: #ff6b6b;
+}
+
+.header-account .icon {
+  font-size: 20px;
+}
+
+.header-cart {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-cart a {
+  position: relative;
+}
+
+.header-cart .cart-qty {
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  width: 21px;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -10px;
+  left: 24px;
+  position: absolute;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-menu ul {
+}
+
+.footer-primary {
+  background: #1b1927 url(../banners/banner-06.jpg) no-repeat right;
+}
+
+.footer-support {
+  display: inline-block;
+  margin-right: 128px;
+}
+
+.footer-support ul {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.footer-support a {
+  display: block;
+}
+
+.footer-support [class='fa-'] {
+  color: #ff6b6b;
+  font-size: 36px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.content-main section header {
+  font-weight: 300;
+  text-align: center;
+}
+
+.content-main section header h1 {
+  font-size: 40px;
+  color: #292929;
+}
+
+.content-main section header h1 span {
+  font-weight: 500;
+}
+
+/* homepage */
+.home-payment ul {
+  display: flex;
+  width: px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+/* homepage */
+
+.content-main section ul {
+  display: inline-block;
+  align-items: center;
+}
